@@ -20,25 +20,44 @@
 		</ul>
 	</nav>
 	
-	<div>
+	<section id="main-con">
 
-		<h1>Contact</h1>
+		<h1 class="headings">Contact</h1>
 
 		<form action="action_page.php">
   			Name:<br>
-  			<input type="text" name="name" value=""><br>
+  			<input type="text" name="name" placeholder="John Smith"><br>
   			Email:<br>
-  			<input type="text" name="email" value=""><br>
+  			<input type="text" name="email" placeholder="example@gmail.com"><br>
   			Message:<br>
-  			<input type="text" name="message"><br><br>
+  			<textarea name="message" rows="10" cols="80">
+  			</textarea><br><br>
   			<input type="submit" value="Submit">
 		</form>
-	</div>
+	</section>
+
+	<section id="sidebar">
+		
+		<h3 class="headings">Connect with Me</h3>
+
+		<a href="https://github.com/ByronDaleRichardson">
+			<img class="icon" src="assets/images/github.png" alt="github">
+		</a>
+		
+		<a href="linkedin">
+			<img class="icon" src="assets/images/linkedin.png" alt="linkedin">
+		</a>
+
+		<a href="http://stackoverflow.com/users/7092796/byron-d-richardson?tab=profile">
+			<img class="icon" src="assets/images/stackoverflow.png" alt="stackoverflow">
+		</a>
+					
+	</section>
 	<footer>
   		<p>Copyright &copy;2016 - Byron Richardson</p>
 	</footer>
 
 	</div>
-	
+
 </body>
 </html>
