@@ -67,6 +67,7 @@ li a:hover {
 }
 
 #main-con {
+	position: relative;
 	width: 582px;
 	background-color: #ffffff;
 	padding: 30px;
@@ -111,6 +112,15 @@ input[type=submit] {
 	padding: 10px 20px;
 	border: none;
 }
+
+.image {
+	position: absolute;
+}
+
+h2 {
+	position: absolute;
+}
+
 footer {
 	position: absolute;
 	color: white;
